@@ -1,7 +1,6 @@
-l=[10,20,30,"miliky",(10+20j),1]
-print(l[3])
-print(l[-2])
-print(l[1:4])
-print(l)
-l.remove(30)
-print(l)
+mylist=[]
+n=int(input("enter any number:"))
+for x in range(n):
+    num=int(input("enter a number:"))
+    mylist.append(num)
+    print("my updated list is:",mylist)
